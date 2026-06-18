@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Mangrove tree silhouette - white fill with shadow -->
+  <!-- Trunk -->
+  <path d="M185 500 L185 280 Q185 250 200 220 Q215 250 215 280 L215 500 Z" fill="white" opacity="0.18"/>
+  <!-- Main branches from trunk top -->
+  <path d="M200 220 Q160 180 100 140" stroke="white" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M200 220 Q240 175 300 150" stroke="white" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M200 220 Q200 160 200 100" stroke="white" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M200 220 Q150 210 80 200" stroke="white" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M200 220 Q250 205 330 190" stroke="white" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <!-- Canopy clusters -->
+  <ellipse cx="100" cy="140" rx="60" ry="50" fill="white" opacity="0.18"/>
+  <ellipse cx="300" cy="150" rx="55" ry="48" fill="white" opacity="0.18"/>
+  <ellipse cx="200" cy="95" rx="65" ry="55" fill="white" opacity="0.18"/>
+  <ellipse cx="80" cy="200" rx="50" ry="40" fill="white" opacity="0.18"/>
+  <ellipse cx="330" cy="190" rx="48" ry="38" fill="white" opacity="0.18"/>
+  <ellipse cx="150" cy="120" rx="45" ry="40" fill="white" opacity="0.18"/>
+  <ellipse cx="250" cy="115" rx="45" ry="38" fill="white" opacity="0.18"/>
+  <!-- Aerial roots (mangrove characteristic - above ground) -->
+  <path d="M190 350 Q170 310 165 270" stroke="white" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M210 360 Q230 315 235 275" stroke="white" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M195 380 Q175 340 168 300" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M205 385 Q225 340 232 298" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M188 400 Q160 365 152 330" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <path d="M212 405 Q240 368 248 330" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <!-- Root tips at ground -->
+  <circle cx="165" cy="270" r="6" fill="white" opacity="0.18"/>
+  <circle cx="235" cy="275" r="6" fill="white" opacity="0.18"/>
+  <circle cx="168" cy="300" r="5" fill="white" opacity="0.18"/>
+  <circle cx="232" cy="298" r="5" fill="white" opacity="0.18"/>
+  <circle cx="152" cy="330" r="5" fill="white" opacity="0.18"/>
+  <circle cx="248" cy="330" r="5" fill="white" opacity="0.18"/>
+</svg>

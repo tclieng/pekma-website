@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEKMA - Pertubuhan Kebajikan Komuniti dan Mesra Alam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="pekma_logo_official.jpg" alt="PEKMA Logo">
+                <span>PEKMA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active" data-i18n="nav.home">Laman Utama</a></li>
+                <li><a href="about.html" data-i18n="nav.about">Tentang Kami</a></li>
+                <li><a href="programs.html" data-i18n="nav.programs">Program</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Galeri</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Hubungi Kami</a></li>
+            </ul>
+            
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button class="lang-btn" id="langToggle">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-current" id="currentLang">BM</span>
+                </button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-option" data-lang="ms">🇲🇾 Bahasa Malaysia</button>
+                    <button class="lang-option" data-lang="en">🇬🇧 English</button>
+                    <button class="lang-option" data-lang="zh">🇨🇳 中文</button>
+                </div>
+            </div>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero mangrove-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="home.heroTitle">PERTUBUHAN KEBAJIKAN KOMUNITI DAN MESRA ALAM</h1>
+            <p class="tagline" data-i18n="home.tagline">Bersama membina komuniti yang prihatin dan mesra alam</p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn btn-primary" data-i18n="home.btnKnowMore">Ketahui Lanjut</a>
+                <a href="contact.html" class="btn btn-secondary" data-i18n="home.btnJoinUs">Sertai Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Vision -->
+    <section class="mission-vision">
+        <div class="container">
+            <div class="mv-grid">
+                <div class="mv-card">
+                    <div class="mv-icon">🎯</div>
+                    <h3 data-i18n="home.visionTitle">Visi</h3>
+                    <p data-i18n="home.visionText">Menjadi organisasi terkemuka dalam membangunkan komuniti yang prihatin, inklusif, dan mesra alam sejahtera.</p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">💚</div>
+                    <h3 data-i18n="home.missionTitle">Misi</h3>
+                    <ul>
+                        <li data-i18n="home.mission1">Melaksanakan kerja sukarela untuk golongan kurang upaya dan memerlukan</li>
+                        <li data-i18n="home.mission2">Mengeratkan silaturahim sesama ahli jawatankuasa</li>
+                        <li data-i18n="home.mission3">Memberikan latihan kerja dan pendidikan percuma</li>
+                        <li data-i18n="home.mission4">Memupuk kesedaran kelestarian alam sekitar</li>
+                    </ul>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">🤝</div>
+                    <h3 data-i18n="home.valuesTitle">Nilai Teras</h3>
+                    <ul>
+                        <li><strong data-i18n="home.value1Title">Kasih Sayang</strong> - <span data-i18n="home.value1Desc">Menyanjung kasih sesama insan</span></li>
+                        <li><strong data-i18n="home.value2Title">Inklusiviti</strong> - <span data-i18n="home.value2Desc">Terbuka untuk semua kaum dan agama</span></li>
+                        <li><strong data-i18n="home.value3Title">Mesra Alam</strong> - <span data-i18n="home.value3Desc">Prihatin terhadap kelestarian alam</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Meaning -->
+    <section class="logo-meaning mangrove-bg">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.logoMeaningTitle">Makna Logo Kami</h2>
+            <div class="logo-meaning-content">
+                <div class="logo-image">
+                    <img src="pekma_logo_official.jpg" alt="PEKMA Logo">
+                </div>
+                <div class="logo-description">
+                    <div class="meaning-item">
+                        <h4>🖐️ <span data-i18n="home.logoHandTitle">Bentuk Tangan</span></h4>
+                        <p data-i18n="home.logoHand">Melambangkan kasih sayang dan keprihatinan kami terhadap sesama insan.</p>
+                    </div>
+                    <div class="meaning-item">
+                        <h4>👤 <span data-i18n="home.logoHumanTitle">Bentuk Manusia</span></h4>
+                        <p data-i18n="home.logoHuman">Melambangkan keprihatinan terhadap semua kaum tanpa mengira bangsa dan agama.</p>
+                    </div>
+                    <div class="meaning-item">
+                        <h4>💚 <span data-i18n="home.logoGreenTitle">Warna Hijau</span></h4>
+                        <p data-i18n="home.logoGreen">Melambangkan komitmen kami untuk mesra alam (environmentally friendly).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.joinTitle">Sertai Kami</h2>
+            <div class="links-grid">
+                <div class="link-card">
+                    <div class="link-icon">🙋</div>
+                    <h3 data-i18n="home.volunteerTitle">Jadi Sukarelawan</h3>
+                    <p data-i18n="home.volunteerDesc">Bantu kami memberi impak kepada komuniti.</p>
+                    <a href="contact.html" class="btn-link" data-i18n="home.registerNow">Daftar Sekarang →</a>
+                </div>
+                <div class="link-card">
+                    <div class="link-icon">💰</div>
+                    <h3 data-i18n="home.donateTitle">Sumbangan</h3>
+                    <p data-i18n="home.donateDesc">Sokong misi kami melalui sumbangan anda.</p>
+                    <a href="contact.html" class="btn-link" data-i18n="home.donateNow">Sumbang Sekarang →</a>
+                </div>
+                <div class="link-card">
+                    <div class="link-icon">📋</div>
+                    <h3 data-i18n="home.memberTitle">Jadi Ahli</h3>
+                    <p data-i18n="home.memberDesc">Jadilah sebahagian daripada keluarga PEKMA.</p>
+                    <a href="contact.html" class="btn-link" data-i18n="home.joinNow">Daftar Ahli →</a>
+                </div>
+                <div class="link-card">
+                    <div class="link-icon">📞</div>
+                    <h3 data-i18n="home.contactTitle">Hubungi Kami</h3>
+                    <p data-i18n="home.contactDesc">Hubungi kami untuk sebarang pertanyaan.</p>
+                    <a href="contact.html" class="btn-link" data-i18n="home.contactNow">Hubungi →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mangrove-bg">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>PEKMA</h4>
+                    <p data-i18n="footer.description">Pertubuhan Kebajikan Komuniti dan Mesra Alam (PPM-014-10-03032022)</p>
+                    <p data-i18n="footer.registered">Organisasi berdaftar di bawah Jabatan Pendaftaran Pertubuhan Malaysia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.contactUs">Hubungi Kami</h4>
+                    <p>📍 Lot 17-27 Bersatu Industrial Park<br>Jalan CJ 1/1, Cheras Jaya<br>43200 Cheras, Selangor</p>
+                    <p>📧 Email: info@pekma.org.my</p>
+                    <p data-i18n="home.phoneText">📱 Phone: +60 12-909 1160</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.followUs">Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/myPEKMA" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 PEKMA. Hak Cipta Terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

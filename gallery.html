@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - PEKMA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="pekma_logo_official.jpg" alt="PEKMA Logo">
+                <span>PEKMA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav.home">Laman Utama</a></li>
+                <li><a href="about.html" data-i18n="nav.about">Tentang Kami</a></li>
+                <li><a href="programs.html" data-i18n="nav.programs">Program</a></li>
+                <li><a href="gallery.html" class="active" data-i18n="nav.gallery">Galeri</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Hubungi Kami</a></li>
+            </ul>
+            
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button class="lang-btn" id="langToggle">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-current" id="currentLang">BM</span>
+                </button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-option" data-lang="ms">🇲🇾 Bahasa Malaysia</button>
+                    <button class="lang-option" data-lang="en">🇬🇧 English</button>
+                    <button class="lang-option" data-lang="zh">🇨🇳 中文</button>
+                </div>
+            </div>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header mangrove-bg">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 data-i18n="gallery.pageTitle">Galeri</h1>
+            <p data-i18n="gallery.pageSubtitle">Kenangan aktiviti PEKMA</p>
+        </div>
+    </section>
+
+    <!-- Gallery Content -->
+    <section class="gallery-content">
+        <div class="container">
+            <!-- Gallery Filter (Optional) -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all" data-i18n="gallery.filterAll">Semua</button>
+                <button class="filter-btn" data-filter="welfare" data-i18n="gallery.filterWelfare">Kebajikan</button>
+                <button class="filter-btn" data-filter="training" data-i18n="gallery.filterTraining">Latihan</button>
+                <button class="filter-btn" data-filter="environment" data-i18n="gallery.filterEnv">Alam Sekitar</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Welfare -->
+                <div class="gallery-item" data-category="welfare">
+                    <div class="gallery-image">
+                        <img src="images/iftramadhan.jpg" alt="PEKMA Iftar & Moreh">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gallery.photoIftarTitle">Sumbangan Iftar & Moreh</h3>
+                        <p data-i18n="gallery.photoIftarDesc">Berkongsi rezeki bersama komuniti dalam bulan Ramadhan.</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="welfare">
+                    <div class="gallery-image">
+                        <img src="images/committee_meeting.jpg" alt="PEKMA Committee Meeting">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gallery.photoMeetingTitle">Mesyuarat Jawatankuasa</h3>
+                        <p data-i18n="gallery.photoMeetingDesc">Perbincangan aktif demi perancangan program yang lebih baik.</p>
+                    </div>
+                </div>
+
+                <!-- Training -->
+                <div class="gallery-item" data-category="training">
+                    <div class="gallery-image">
+                        <img src="images/bazaar_handcraft.jpg" alt="PEKMA Bazaar Hand Craft">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gallery.photoBazaarTitle">Bazaar Produk Tangan</h3>
+                        <p data-i18n="gallery.photoBazaarDesc">Peluang menjana pendapatan melalui hasil kerja tangan.</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="training">
+                    <div class="gallery-image">
+                        <img src="images/handcraft_workshop.jpg" alt="PEKMA Hand Craft Workshop">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gallery.photoWorkshopTitle">Bengkel Kerja Tangan</h3>
+                        <p data-i18n="gallery.photoWorkshopDesc">Latihan kemahiran untuk komuniti tempatan.</p>
+                    </div>
+                </div>
+
+                <!-- Environment -->
+                <div class="gallery-item" data-category="environment">
+                    <div class="gallery-image">
+                        <img src="images/student_recycling.jpg" alt="PEKMA Student Recycling">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gallery.photoRecyclingTitle">Projek Kitar Semula Pelajar</h3>
+                        <p data-i18n="gallery.photoRecyclingDesc">Memupuk kesedaran alam sekitar dalam kalangan pelajar.</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="environment">
+                    <div class="gallery-image">
+                        <img src="images/trash_to_treasure.jpg" alt="PEKMA Trash to Treasure">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gallery.photoTrashTitle">Trash to Treasure bersama UiTM</h3>
+                        <p data-i18n="gallery.photoTrashDesc">Mengubah sisa menjadi bahan bernilai.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button (Optional) -->
+            <div class="load-more">
+                <button class="btn btn-primary" data-i18n="gallery.loadMore">Muat Lebih Banyak</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mangrove-bg">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>PEKMA</h4>
+                    <p data-i18n="footer.description">Pertubuhan Kebajikan Komuniti dan Mesra Alam<br>(PPM-014-10-03032022)</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.contactUs">Hubungi Kami</h4>
+                    <p>📍 Lot 17-27 Bersatu Industrial Park<br>Jalan CJ 1/1, Cheras Jaya<br>43200 Cheras, Selangor</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.followUs">Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/myPEKMA" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 PEKMA. Hak Cipta Terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

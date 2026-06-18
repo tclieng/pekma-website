@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - PEKMA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="pekma_logo_official.jpg" alt="PEKMA Logo">
+                <span>PEKMA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav.home">Laman Utama</a></li>
+                <li><a href="about.html" class="active" data-i18n="nav.about">Tentang Kami</a></li>
+                <li><a href="programs.html" data-i18n="nav.programs">Program</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Galeri</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Hubungi Kami</a></li>
+            </ul>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button class="lang-btn" id="langToggle">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-current" id="currentLang">BM</span>
+                </button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-option" data-lang="ms">🇲🇾 Bahasa Malaysia</button>
+                    <button class="lang-option" data-lang="en">🇬🇧 English</button>
+                    <button class="lang-option" data-lang="zh">🇨🇳 中文</button>
+                </div>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header mangrove-bg">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 data-i18n="about.pageTitle">Tentang Kami</h1>
+            <p data-i18n="about.pageSubtitle">Getahui lebih lanjut tentang misi dan visi PEKMA</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <!-- Organization Background -->
+            <div class="about-section">
+                <h2 class="section-title" data-i18n="about.backgroundTitle">Latar Belakang</h2>
+                <div class="about-text">
+                    <p data-i18n="about.backgroundText1"><strong>PEKMA (Pertubuhan Kebajikan Komuniti dan Mesra Alam)</strong> merupakan sebuah organisasi bukan kerajaan (NGO) yang berdaftar secara rasmi dengan Jabatan Pendaftaran Pertubuhan Malaysia.</p>
+
+                    <p data-i18n="about.registrationNo">No. Pendaftaran: <strong>PPM-014-10-03032022</strong></p>
+
+                    <p data-i18n="about.backgroundText2">Organisasi ini ditubuhkan dengan matlamat utama untuk menjalankan kerja-kerja kebajikan masyarakat, khususnya membantu golongan kurang upaya dan memerlukan. PEKMA juga komited dalam memupuk kesedaran alam sekitar dalam kalangan komuniti.</p>
+
+                    <p data-i18n="about.backgroundText3">Beroperasi di <strong>Cheras, Selangor</strong>, PEKMA terbuka kepada semua lapisan masyarakat tanpa mengira bangsa, agama, dan jantina.</p>
+                </div>
+            </div>
+
+            <!-- Mission & Objectives -->
+            <div class="about-section">
+                <h2 class="section-title" data-i18n="about.objectivesTitle">Matlamat & Objektif</h2>
+                <div class="objectives-grid">
+                    <div class="objective-card">
+                        <div class="obj-number">01</div>
+                        <h3 data-i18n="about.obj1Title">Kerja Sukarela</h3>
+                        <p data-i18n="about.obj1Desc">Menjalankan kerja-kerja sukarela yang bertujuan menyasarkan kepada golongan kurang upaya serta memerlukan.</p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="obj-number">02</div>
+                        <h3 data-i18n="about.obj2Title">Silaturahim</h3>
+                        <p data-i18n="about.obj2Desc">Mengeratkan silaturahim dan hubungan baik sesama ahli jawatankuasa serta NGO lain yang berkongsi visi yang sama.</p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="obj-number">03</div>
+                        <h3 data-i18n="about.obj3Title">Latihan & Pendidikan</h3>
+                        <p data-i18n="about.obj3Desc">Memberikan latihan kerja, bimbingan serta pendidikan percuma kepada golongan masyarakat tempatan, khususnya golongan kurang upaya.</p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="obj-number">04</div>
+                        <h3 data-i18n="about.obj4Title">Mesra Alam</h3>
+                        <p data-i18n="about.obj4Desc">Memupuk kesedaran dan amalan mesra alam dalam semua aktiviti organisasi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Committee Structure -->
+            <div class="about-section">
+                <h2 class="section-title" data-i18n="about.committeeTitle">Struktur Jawatankuasa</h2>
+                <div class="committee-info">
+                    <p data-i18n="about.committeeText">Jawatankuasa PEKMA dipilih setiap dua tahun sekali dalam Mesyuarat Agung Tahunan. Berikut adalah jawatan-jawatan yang terdapat dalam organisasi:</p>
+
+                    <div class="committee-list">
+                        <div class="committee-item">
+                            <h4>Pengerusi</h4>
+                            <p>Peneraju organisasi dan pengerusi mesyuarat</p>
+                        </div>
+                        <div class="committee-item">
+                            <h4>Timbalan Pengerusi</h4>
+                            <p>Memangku tugas Pengerusi semasa ketiadaannya</p>
+                        </div>
+                        <div class="committee-item">
+                            <h4>Setiausaha</h4>
+                            <p>Menguruskan pentadbiran dan surat-menyurat</p>
+                        </div>
+                        <div class="committee-item">
+                            <h4>Penolong Setiausaha</h4>
+                            <p>Membantu tugas Setiausaha</p>
+                        </div>
+                        <div class="committee-item">
+                            <h4>Bendahari</h4>
+                            <p>Bertanggungjawab atas hal ehwal kewangan</p>
+                        </div>
+                        <div class="committee-item">
+                            <h4>Penolong Bendahari</h4>
+                            <p>Membantu tugas Bendahari</p>
+                        </div>
+                        <div class="committee-item">
+                            <h4>Ahli Jawatankuasa Biasa</h4>
+                            <p>Membantu dalam tugas yang diarahkan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Current Committee -->
+                <div class="current-committee">
+                    <h3 data-i18n="about.currentCommittee">Ahli Jawatankuasa Semasa (2024-2026)</h3>
+                    <p class="note" data-i18n="about.updateNote">*Sila kemaskini dengan maklumat terkini</p>
+                    <div class="committee-members">
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>TUAN TAN CHEE LIENG</h4>
+                            <p>Pengerusi</p>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>CIK KOK SWEE PENG</h4>
+                            <p>Timbalan Pengerusi</p>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>CIK GOH CHING PENG</h4>
+                            <p>Setiausaha</p>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>CIK ONG SHIR LI</h4>
+                            <p>Penolong Setiausaha</p>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>CIK STELLA TAN MEI LEE</h4>
+                            <p>Bendahari</p>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>TUAN ONG SEA SOON</h4>
+                            <p>Penolong Bendahari</p>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-photo">👤</div>
+                            <h4>TUAN MUHAMMAD AZWAN BIN ABDULLAH</h4>
+                            <p>Ahli Jawatankuasa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Membership Info -->
+            <div class="about-section">
+                <h2 class="section-title" data-i18n="about.membershipTitle">Keahlian</h2>
+                <div class="membership-info">
+                    <h3 data-i18n="about.criteriaTitle">Kriteria Ahli Biasa:</h3>
+                    <ul class="membership-list">
+                        <li data-i18n="about.citizenship"><strong>Kewarganegaraan:</strong> Malaysia</li>
+                        <li data-i18n="about.minAge"><strong>Umur Minimum:</strong> 18 tahun</li>
+                        <li data-i18n="about.area"><strong>Kawasan:</strong> Selangor</li>
+                        <li data-i18n="about.race"><strong>Keturunan:</strong> Terbuka kepada semua</li>
+                        <li data-i18n="about.gender"><strong>Jantina:</strong> Terbuka kepada semua</li>
+                        <li data-i18n="about.religion"><strong>Agama:</strong> Terbuka kepada semua</li>
+                    </ul>
+
+                    <h3 class="mt-30" data-i18n="about.feeTitle">Yuran Keahlian:</h3>
+                    <div class="fee-structure">
+                        <div class="fee-item">
+                            <span class="fee-label" data-i18n="about.registrationFee">Bayaran Masuk:</span>
+                            <span class="fee-amount">RM 10.00</span>
+                        </div>
+                        <div class="fee-item">
+                            <span class="fee-label" data-i18n="about.annualFee">Yuran Tahunan:</span>
+                            <span class="fee-amount">RM 10.00</span>
+                        </div>
+                    </div>
+
+                    <div class="cta-box mangrove-bg">
+                        <p data-i18n="about.joinCTA">Anda berminat untuk menjadi ahli PEKMA?</p>
+                        <a href="contact.html" class="btn btn-primary" data-i18n="about.registerBtn">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="about-section">
+                <h2 class="section-title" data-i18n="about.contactTitle">Maklumat Hubungan</h2>
+                <div class="contact-info-box">
+                    <div class="contact-item">
+                        <h4 data-i18n="about.address">📍 Alamat:</h4>
+                        <p data-i18n="about.addressText">Lot 17-27 Bersatu Industrial Park<br>Jalan CJ 1/1, Cheras Jaya<br>43200 Cheras, Selangor</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4 data-i18n="about.email">📧 Email:</h4>
+                        <p>info@pekma.org.my</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4 data-i18n="about.phone">📱 Telefon:</h4>
+                        <p data-i18n="about.phoneNumber">+60 12-909 1160</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4 data-i18n="about.hours">⏰ Waktu Operasi:</h4>
+                        <p data-i18n="about.hoursTime">Isnin - Jumaat: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mangrove-bg">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>PEKMA</h4>
+                    <p data-i18n="footer.description">Pertubuhan Kebajikan Komuniti dan Mesra Alam<br>(PPM-014-10-03032022)</p>
+                    <p data-i18n="footer.registered">Organisasi berdaftar di bawah Jabatan Pendaftaran Pertubuhan Malaysia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.contactUs">Hubungi Kami</h4>
+                    <p>📍 Lot 17-27 Bersatu Industrial Park<br>Jalan CJ 1/1, Cheras Jaya<br>43200 Cheras, Selangor</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.followUs">Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/myPEKMA" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 PEKMA. Hak Cipta Terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

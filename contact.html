@@ -104,7 +104,7 @@
                         <div class="info-icon">📍</div>
                         <div class="info-content">
                             <h3 data-i18n="about.address">Alamat</h3>
-                            <p data-i18n="contact.addressText">Lot 17-27 Bersatu Industrial Park<br>Jalan CJ 1/1, Cheras Jaya<br>43200 Cheras, Selangor</p>
+                            <p data-i18n="contact.addressText"><a href="https://maps.app.goo.gl/VKGXbaK1RfGypaCe8" target="_blank" style="color:inherit; text-decoration:none;">Lot 17-27 Bersatu Industrial Park<br>Jalan CJ 1/1, Cheras Jaya<br>43200 Cheras, Selangor</a></p>
                         </div>
                     </div>
                     <div class="info-card">
@@ -156,13 +156,23 @@
         </div>
     </section>
 
-    <!-- Map Section (Placeholder) -->
+    <!-- Map Section -->
     <section class="map-section">
         <div class="container">
             <h2 class="section-title" data-i18n="contact.locationTitle">Lokasi Kami</h2>
-            <div class="map-placeholder">
-                <p>📍 Peta Lokasi</p>
-                <p class="note">*Sila masukkan Google Maps embed code di sini</p>
+            <div class="map-embed">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.5!2d101.7672255!3d3.0254335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcb527b74385d%3A0x9e11f09463132517!2sPEKMA!5e0!3m2!1sen!2smy!4v1718730000000"
+                    width="100%"
+                    height="400"
+                    style="border:0; border-radius: 12px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="map-link" style="text-align:center; margin-top: 12px;">
+                <a href="https://maps.app.goo.gl/VKGXbaK1RfGypaCe8" target="_blank" class="btn btn-primary">📍 Buka di Google Maps</a>
             </div>
         </div>
     </section>

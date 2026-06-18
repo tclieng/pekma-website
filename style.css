@@ -841,18 +841,15 @@ body {
     background: var(--white);
 }
 
-.map-placeholder {
+.map-embed {
     margin-top: 40px;
-    padding: 100px;
-    background: var(--off-white);
     border-radius: 15px;
-    text-align: center;
-    border: 2px dashed var(--gray);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.map-placeholder p {
-    font-size: 1.2rem;
-    color: var(--gray);
+.map-embed iframe {
+    display: block;
 }
 
 /* Responsive */
